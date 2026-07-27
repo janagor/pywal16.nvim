@@ -156,6 +156,7 @@ M.highlights_base = function(colors)
     -- LspSaga
     DefinitionCount = { fg = colors.color6 },
     DefinitionIcon = { fg = colors.color7 },
+    LspCodeLens = { italic = true, fg = colors.color8 },
     LspFloatWinBorder = { fg = colors.foreground },
     LspFloatWinNormal = { bg = colors.transparent },
     LspSagaBorderTitle = { fg = colors.color7 },
