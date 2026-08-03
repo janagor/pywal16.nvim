@@ -153,10 +153,13 @@ M.highlights_base = function(colors)
     IblScope = { fg = colors.color7, bg = colors.transparent },
     -- IblWhitespace = { fg = colors.color8, bg = colors.background },
 
+    -- LSP
+    LspCodeLens = { italic = true, fg = colors.color8 },
+    LspInlayHint = { italic = true, fg = colors.color8 }, -- defaults to NonText (bg fg) otherwise
+
     -- LspSaga
     DefinitionCount = { fg = colors.color6 },
     DefinitionIcon = { fg = colors.color7 },
-    LspCodeLens = { italic = true, fg = colors.color8 },
     LspFloatWinBorder = { fg = colors.foreground },
     LspFloatWinNormal = { bg = colors.transparent },
     LspSagaBorderTitle = { fg = colors.color7 },
